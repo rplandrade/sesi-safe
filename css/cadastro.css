@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial;
+}
+html, body{
+    margin: 0;
+    padding: 0;
+    /*background: #e30513;*/
+    background-image: url("fundo.jpg");
+    background-size: 315%;
+}
+header{
+    background: #e30513;
+    padding: 2% 3%;
+    position: relative;
+}
+header a{
+    font-size: 1.8em;
+    display: inline-block;
+}
+header h2{
+    text-align: center;
+    color: white;
+    margin: 0;
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+header i{
+    color: white;
+    font-size: 2em;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 16px;
+}
+form label{
+    color: white;
+    font-weight: bold;
+    /*text-align: center;*/
+    width: 80%;
+}
+form input{
+    width: 80%;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    height: 30px;
+}
+form select{
+    width: 80%;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    height: 30px;
+}
+form a{
+    text-decoration: none;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+}
+.button{
+    color: #e30513;
+    background: white;
+    border-radius: 15px;
+    height: 30px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    margin: 15px 0 0 0;
+    width: 80%;
+}

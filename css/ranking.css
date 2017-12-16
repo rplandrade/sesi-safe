@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial;
+}
+html, body{
+    margin: 0;
+    padding: 0;
+    /*background: #e30513;*/
+    background-image: url("fundo.jpg");
+    background-size: 315%;
+}
+header{
+    background: #e30513;
+    padding: 2% 3%;
+    position: relative;
+}
+header a{
+    font-size: 1.8em;
+    display: inline-block;
+}
+header h2{
+    text-align: center;
+    color: white;
+    margin: 0;
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+header i{
+    color: white;
+    font-size: 2em;
+}
+main h2{
+    color: white; 
+    text-align: center;
+}
+main h3{
+    color: white; 
+    text-align: center;
+}
+table{
+    margin: 0 auto;
+}
+main td{
+    color: white; 
+    text-align: center;
+}
+main a{
+    text-decoration: none;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.button{
+    color: #e30513;
+    background: white;
+    border-radius: 15px;
+    height: 30px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    margin: 15px 0 35px 0;
+    width: 80%;
+}
