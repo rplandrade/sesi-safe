@@ -2,12 +2,13 @@
     box-sizing: border-box;
     font-family: Arial;
 }
-html, body{
+body{
     margin: 0;
     padding: 0;
-    /*background: #e30513;*/
     background-image: url("fundo.jpg");
-    background-size: cover;
+    background-size: 315%;
+    max-width: 320px;
+    overflow: hidden;
 }
 main{
     padding: 30% 15px;

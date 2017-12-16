@@ -8,6 +8,8 @@ html, body{
     /*background: #e30513;*/
     background-image: url("fundo.jpg");
     background-size: 315%;
+    max-width: 320px;
+    overflow: hidden;
 }
 header{
     background: #e30513;
